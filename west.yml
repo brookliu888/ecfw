@@ -23,6 +23,9 @@ manifest:
       path: modules/hal/cmsis
       groups:
         - hal
-
+    - name: mcuboot
+      remote: zephyrproject
+      revision: 13f63976bca672ee018f9d55f1e31f02f4135b64
+      path: bootloader/mcuboot
   self:
     path: ecfw

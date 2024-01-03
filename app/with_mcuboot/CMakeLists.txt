@@ -2,6 +2,7 @@
 
 cmake_minimum_required(VERSION 3.20.0)
 
+# set(DTC_OVERLAY_FILE "npcx4m8f_evb.overlay")
 find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 project(sample_with_mcuboot)
 
@@ -11,4 +12,3 @@ project(sample_with_mcuboot)
 # test_sysbuild()
 
 target_sources(app PRIVATE src/main.c)
-set(DTC_OVERLAY_FILE "npcx4m8f_evb.overlay")
