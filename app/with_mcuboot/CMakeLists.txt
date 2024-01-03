@@ -11,3 +11,4 @@ project(sample_with_mcuboot)
 # test_sysbuild()
 
 target_sources(app PRIVATE src/main.c)
+set(DTC_OVERLAY_FILE "npcx4m8f_evb.overlay")
